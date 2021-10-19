@@ -5,7 +5,7 @@ namespace INADevOps2
     public class Program
     {
         public string Transformado;
-        public void Transformar(string h) { Transformado = h.ToUpper(); }
+        public void Transformar(string h) { Transformado = h.ToUpper(); 
         static void Main(string[] args)
         {
             Console.WriteLine("Hello World!");
